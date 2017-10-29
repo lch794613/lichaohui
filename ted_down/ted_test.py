@@ -19,8 +19,9 @@ def find_ted():
             real_name = name[2:]
             fullname = ""
             for _ in real_name:
-                fullname = fullname + _ + "_"
+                fullname = fullname + _ + " "
             print("page:"+str(int(i/2))+" is "+fullname)
+            print(" ")
     print("一共"+str(int(i/2))+"个视频")
     return cont
 
