@@ -27,7 +27,7 @@ def find_ted():
 
 def choice():
     try:
-        num = input("请输入1表示单个下载 输入2表示批量下载")
+        num = input("请输入1表示单个下载 输入2表示批量下载 输入3表示返回上一级重新选择")
         if int(num)==1:
             num=input("请输入要下载的页面 如有多个请用逗号分隔")
             pages=num.split(",")
@@ -42,6 +42,9 @@ def choice():
                 for _ in range(int(page2[0]),int(page2[1])+1):
                     new_page.append(_)
             return new_page
+        elif int(num) == 3:
+            find_ted()
+            choice()
         else:
             print("输入错误请重新输入")
             choice()
