@@ -95,6 +95,8 @@ def Schedule(a,b,c):
     if int(per)-pre>0:
         print('%.2f%%' % per)
         pre=int(per)
+    if pre=>100:
+        pre=0
 
 
 
