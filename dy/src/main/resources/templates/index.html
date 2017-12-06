@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <script src="/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.rotate.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/index.js" ></script>
+    <script type="text/javascript" src="/Template/Template.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Template/csshake.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/Template/Template.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/index.css"/>
+</head>
+<body>
+
+ <div class="layout1">
+    <div class="welcome">
+        <div class="clock2">
+            <div class='clock'>
+                <div class='h shake shake-slow'></div>
+                <div class='m shake shake-slow'></div>
+                <div class='s shake shake-slow'></div>
+            </div>
+        </div>
+         <div class="title">
+         <h1>welcome</h1>
+         <p class="hp">我的个人小站</p>
+             <p class="hp">点击右上角登陆后才能跳转</p>
+         </div>
+    </div>
+
+   <div class="login" title="登陆">
+       <div class="login_img"></div>
+       <div class="box2" >
+           <div class="card1"><span class="a" id="a1">登陆</span></div>
+           <div class="card2"><span class="a" id="a2">注册</span></div>
+           <hr id="h2"/>
+           <form th:action="@{/login}" method="post">
+           <div class="cont"  id="cont1">
+               <ul>
+                   <li>
+                       <input  class="in" id="name" type="text" placeholder="用户名" />
+                   </li>
+                   <li>
+                       <input  class="in" id="password" type="password" placeholder="密码" />
+                   </li>
+                   <li>
+                       <input  type="submit" class="button" title="登陆" value="登陆">
+                   </li>
+               </ul>
+
+           </div>
+            </form>
+           <form th:action="@{/register}" th:object="${register}" method="post">
+           <div class="cont" id="cont2" hidden >
+               <ul>
+                   <li>
+                       <input th:field="${register.email}" class="in" id="email" type="text" placeholder="注册邮箱" />
+                   </li>
+
+                   <li>
+                       <input th:field="${register.loginpassword}" class="in" id="loginpassword" type="password" placeholder="密码" />
+                   </li>
+                   <li>
+                       <input th:field="${register.code}" class="in" type="text" style="width: 110px" placeholder="邮箱验证码" />
+                       <input id="fasong"  style="height: 40px;width: 80px" class="button" title="注册" value="发送" type="button">
+                   </li>
+                   <li>
+                       <input type="submit" class="button" title="注册" value="注册">
+                   </li>
+               </ul>
+           </div></form>
+       </div>
+   </div>
+
+
+<div class="Navigation" >
+    <div class="click2" id="left">
+    </div>
+    <div class="click2" id="right">
+    </div>
+    <div id="navigation">
+
+    <div class="photo" id='photo1'>
+        <div class="p1" id="p1">
+            <img src="images/index.png">
+        </div>
+    </div>
+    <div class="photo" id='photo2'>
+        <div class="p1" id="p2">
+            <img src="images/jianjie.png">
+        </div>
+    </div>
+    <div class="photo" id='photo3'>
+        <div class="p1" id="p3">
+            <img src="images/project.png">
+        </div>
+    </div>
+    <div class="photo" id='photo4'>
+        <div class="p1" id="p4">
+            <img src="images/bulid.png">
+        </div>
+    </div>
+    <div class="photo" id='photo5'>
+        <div class="p1" id="p5">
+            <img src="images/commit.png">
+        </div>
+    </div>
+        <div class="photo" id='photo6'>
+            <div class="p1" id="p6">
+                <img src="images/touming.png">
+            </div>
+        </div>
+     </div>
+    </div>
+ </div>
+
+    <div class="layout2">
+
+        <div id="banner1" class="layout_1">
+            <div class="cont2">
+            <p>这是一个练手的网站</p>
+            <p>前端使用jquery框架 </p>
+                <p>后端使用spring+springmvc+mybait</p>
+            <p>数据库使用mysql</p></div>
+            <img class="banner" src="images/banner1.jpeg"/>
+        </div>
+        <div id="banner2" class="layout_1">
+            <div class="cont2">
+            <p>它将展示各种成果</p>
+            <p>点击导航图标进行跳转</p>
+                <p>详细查看《教程》</p>
+                <p>网页学习完js就开始制作,重新适配浏览器又推翻重做</p>
+            </div>
+            <img class="banner" src="images/banner2.jpg"/>
+        </div>
+
+        <div id="banner3" class="layout_1">
+            <div class="cont2">
+            <p>开始构思于11月8号</p>
+            <p>该页面完成于11月10号</p>
+                <p>计划将在2周内写完</p>
+            <p>毕竟不是专业美工 勿吐槽</p></div>
+            <img class="banner" src="images/banner3.jpg"/>
+        </div>
+        <div id="banner4" class="layout_1">
+            <div class="cont2">
+            <p>与9月开始学习java和python</p>
+            <p>我将综合展示各种技术</p>
+            <p>未来准备以flask框架再写一次</p>
+                <p>求职中 如有意愿请与我联系</p></div>
+            <img class="banner" src="images/banner4.jpg"/>
+
+        </div>
+        <div id="banner5" class="layout_1">
+            <div class="cont2">
+                <p>网站经过多次重整</p>
+                <p>为了适配多数浏览器</p>
+                <p>css数值全部换成百分比%</p>
+                <p>编程一步一坑 踏多了才能置身其中</p></div>
+            <img class="banner" src="images/41.jpg"/>
+
+        </div>
+    </div>
+    <div class="layout3">
+    </div>
+        <div class="back"></div>
+</body>
+</html>

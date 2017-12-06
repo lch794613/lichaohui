@@ -1,0 +1,123 @@
+.project_name{
+    position: relative;
+    height: 50%;
+    width: 101%;
+    padding: 8% 5% 0 10%;
+}
+.project{
+    height: 15%;
+    width: 20%;
+    float: left;
+    margin: 2%;
+    border-radius:20px ;
+    background-size: 100% 100%;
+    cursor: pointer;
+    box-shadow: 5px 0 10px #313131;
+
+
+}
+
+
+
+#project1{
+    background-image: url("../images/paopao1.jpg");
+}
+#project2{
+    background-image: url("../images/paopao2.jpg");
+}
+#project3{
+    background-image: url("../images/paopao3.jpg");
+}#project4{
+     background-image: url("../images/paopao4.jpg");
+ }
+#project5{
+    background-image: url("../images/paopao5.jpg");
+}#project6{
+     background-image: url("../images/paopao6.jpg");
+ }
+#project7{
+    background-image: url("../images/paopao7.jpg");
+}
+#project8{
+    background-image: url("../images/paopao8.jpg");
+}
+#project9{
+    background-image: url("../images/paopao1.jpg");
+}
+#project10{
+    background-image: url("../images/paopao2.jpg");
+}
+#project11{
+    background-image: url("../images/paopao3.jpg");
+}
+#project12{
+    background-image: url("../images/paopao4.jpg");
+}
+#project13{
+    background-image: url("../images/paopao5.jpg");
+}
+#project14{
+    background-image: url("../images/paopao6.jpg");
+}
+#project15{
+    background-image: url("../images/paopao7.jpg");
+}
+#project16{
+    background-image: url("../images/paopao8.jpg");
+}
+.project p{
+    position: absolute;
+    padding: 2%;
+    font-size: 150%;
+    color: #4d4d4d;
+    padding-left:5% ;
+    -webkit-text-stroke: 1px #2A75BF;
+}
+.layout2>.cont{
+    border-radius:30px ;
+    position: relative;
+    height: 50%;
+    width: 80%;
+    top:-12%;
+    margin: 10%;
+    margin-left:12% ;
+    background-image:linear-gradient(to right, #ffffff, #bceaff);
+    box-shadow: 10px 0 30px #7a7a7a;
+
+}
+.display{
+
+    position: relative;
+    padding-left: 8%;
+    height: 80%;
+    width: 90%;
+    margin-left: 8%;
+    top: 10%;
+}
+.display h1{
+    position: relative;
+    font-size:200% ;
+    color: #1d1d1d;
+    left: 5%;
+    margin-bottom: 8%;
+    text-shadow: 1px 1px 3px #3b3b3b;
+}
+.display p{
+    text-shadow: 1px 1px 5px #ffffff;
+    margin-top: 5%;
+    font-size:150% ;
+    color: #5f5f5f;
+    font-family: "Microsoft Sans Serif", serif ;
+    font-weight:bold ;
+}
+.display img{
+    float: left;
+    width: 45%;
+    height: 40%;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius:30px;
+    box-shadow: 10px 0 30px #7a7a7a;
+    left: -15%;
+}

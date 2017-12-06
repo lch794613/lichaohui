@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.rotate.min.js"></script>
+    <script type="text/javascript" src="Template/Template.js"></script>
+    <script type="text/javascript" src="js/commit.js"></script>
+    <link rel="stylesheet" type="text/css" href="Template/Template.css"/>
+    <link rel="stylesheet" type="text/css" href="Template/csshake.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/commit.css">
+
+</head>
+<body>
+ <div class="layout1">
+    <div class="welcome">
+        <div class="clock2">
+            <div class='clock'>
+                <div class='h shake shake-slow'></div>
+                <div class='m shake shake-slow'></div>
+                <div class='s shake shake-slow'></div>
+            </div>
+        </div>
+         <div class="title">
+         <h1>welcome</h1>
+         <p class="hp">我的个人小站</p>
+         </div>
+    </div>
+
+   <div class="login" title="登陆">
+       <div class="login_img"></div>
+       <div class="box2" >
+           <div class="card1"><span class="a" id="a1">登陆</span></div>
+           <div class="card2"><span class="a" id="a2">注册</span></div>
+           <hr id="h2"/>
+
+           <div class="cont"  id="cont1">
+               <ul>
+                   <li>
+                       <input class="in" type="text" placeholder="用户名" />
+                   </li>
+
+                   <li>
+                       <input class="in" type="password" placeholder="密码" />
+                   </li>
+                   <li>
+                       <input  type="submit" class="button" title="登陆" value="登陆">
+                   </li>
+               </ul>
+
+           </div>
+           <div class="cont" id="cont2" hidden >
+               <ul>
+                   <li>
+                       <input class="in" type="text" placeholder="注册邮箱" />
+                   </li>
+
+                   <li>
+                       <input class="in" type="password" placeholder="密码" />
+                   </li>
+                   <li>
+                       <input class="in" type="text" style="width: 110px" placeholder="邮箱验证码" />
+                       <input id="fasong" type="submit" style="height: 40px;width: 80px" class="button" title="注册" value="发送">
+                   </li>
+                   <li>
+                       <input type="submit" class="button" title="注册" value="注册">
+                   </li>
+               </ul>
+           </div>
+       </div>
+   </div>
+
+
+<div class="Navigation" >
+    <div class="click2" id="left">
+    </div>
+    <div class="click2" id="right">
+    </div>
+    <div id="navigation">
+
+    <div class="photo" id='photo1'>
+        <div class="p1" id="p1">
+            <img src="images/index.png">
+        </div>
+    </div>
+    <div class="photo" id='photo2'>
+        <div class="p1" id="p2">
+            <img src="images/jianjie.png">
+        </div>
+    </div>
+    <div class="photo" id='photo3'>
+        <div class="p1" id="p3">
+            <img src="images/project.png">
+        </div>
+    </div>
+    <div class="photo" id='photo4'>
+        <div class="p1" id="p4">
+            <img src="images/bulid.png">
+        </div>
+    </div>
+    <div class="photo" id='photo5'>
+        <div class="p1" id="p5">
+            <img src="images/commit.png">
+        </div>
+    </div>
+        <div class="photo" id='photo6'>
+            <div class="p1" id="p6">
+                <img src="images/touming.png">
+            </div>
+        </div>
+     </div>
+    </div>
+ </div>
+
+    <div class="layout2">
+        <form class="commit2" th:action="@{/commit}" th:object="${commit}" method="post">
+            <div class="inpost">
+                <textarea th:field="${commit.cont}" class="commit_cont" placeholder="填写你想要说的评论 点击提交即可 最多50字 因为数据库设置就这么大"></textarea>
+                <input  type="submit" class="button2" title="提交" value="提交">
+            </div>
+        </form>
+        <div class="commit">
+            <div class="c1" id="u1">
+                <div class="cycle"></div>
+                <div class="cycle2"><span class="l1"></span></div>
+                <div class="c1_commit"><span class="l2"></span></div>
+            </div>
+            <div class="c2" id="u2">
+                <div class="cycle4"><span class="l1"></span></div>
+                <div class="c1_commit2"><span class="l2"></span></div>
+                <div class="cycle3"></div>
+            </div>
+            <div class="c1" id="u3">
+                <div class="cycle" id="h3"></div>
+                <div class="cycle2"><span class="l1"></span></div>
+                <div class="c1_commit"><span class="l2"></span></div>
+            </div>
+            <div class="c2" id="u4">
+                <div class="cycle4"><span class="l1"></span></div>
+                <div class="c1_commit2"><span class="l2"></span></div>
+                <div class="cycle3" id="h4"></div>
+            </div>
+            <div class="c1" id="u5">
+                <div class="cycle" id="h5"></div>
+                <div class="cycle2"><span class="l1"></span></div>
+                <div class="c1_commit"><span class="l2"></span></div>
+            </div>
+            <div class="c2" id="u6">
+                <div class="cycle4"><span class="l1"></span></div>
+                <div class="c1_commit2"><span class="l2"></span></div>
+                <div class="cycle3" id="h6"></div>
+            </div>
+            <div class="c1" id="u7">
+                <div class="cycle" id="h7"></div>
+                <div class="cycle2"><span class="l1"></span></div>
+                <div class="c1_commit"><span class="l2"></span></div>
+            </div>
+            <div class="c2" id="u8">
+                <div class="cycle4"><span class="l1"></span></div>
+                <div class="c1_commit2"><span class="l2"></span></div>
+                <div class="cycle3" id="h8"></div>
+            </div>
+        </div>
+        <div class="NextPage">
+            <div class="up"><span>上一页</span></div>
+            <div class="down"><span>下一页</span></div>
+        </div>
+    </div>
+    <div class="layout3">
+    </div>
+        <div class="back"></div>
+</body>
+</html>
+
+
+
+
+

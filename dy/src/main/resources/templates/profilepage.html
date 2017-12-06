@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="row">
+    <h2>personal info</h2>
+    <form th:action="@{/profile}" th:object="${profileForm}" method="post">
+        <div class="row">
+            <div >
+                <input th:field="${profileForm.name}" id="name" type="text"/>
+            </div>
+            <div>
+                <input th:field="${profileForm.password}" id="password" type="password"/>
+            </div>
+            <button class="btn" type="submit" name="save">submit</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

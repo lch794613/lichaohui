@@ -1,0 +1,14 @@
+{
+  "project": "这是一个展示作品和练习ajax的页面",
+  "cont":{
+    "p1":"展示我开始学习的成果,综合了java和python",
+    "p2":"java主要是后端的练习,本web将以ssm框架搭建",
+    "p3":"python包含爬虫,数据分析,一部分的机器学习",
+    "p4":"java部分各种练手小游戏,java爬虫",
+    "p5":"python爬虫包含urllib库,requests库,scrapy框架,selenium自动化库，phathomJs",
+    "p6":"python数据分析包含numpy库,pandas库,anconda环境,jupyter notebook",
+    "p7":"机器学习包含sk-learn库,tensorflow框架",
+    "p8":"该页使用ajax来动态加载内容",
+    "p9":"点击上方的标签参看内容"
+  }
+}

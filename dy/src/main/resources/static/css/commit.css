@@ -1,0 +1,193 @@
+ .commit2{
+    width: 80%;
+    height: 12%;
+    margin: 0 auto;
+    top:5%;
+    position: relative;
+    background-color: #e6e6e6;
+    border:1px solid #9e9e9e;
+}
+.inpost{
+    height: 80%;
+    width: 95%;
+    left: 2%;
+    top:5%;
+    position: relative;
+}
+.commit_cont{
+    font-size: 150%;
+    resize: none;
+
+    position: relative;
+    width: 100%;
+    height: 88%;
+    top: 0;
+}
+.button2{
+    height: 15%;
+    width: 10%;
+    margin-left: 90%;
+    border: none;
+    border-radius: 2px;
+    background: #009dff;
+    -webkit-appearance: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+}
+.button2:hover{
+    background: #00c8ff;
+}
+.commit{
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    top: 8%;
+    position: relative;
+}
+.c1{
+    width: 100%;
+    height: 13.5%;
+    margin-top: 2%;
+    background-color:rgba(255,255,255,0.3) ;
+
+}
+.cycle{
+    border-radius: 100%;
+    height: 80%;
+    width: 12%;
+    margin: 1% 2% 2% 5%;
+    float: left;
+    background-image: url("../images/h1.jpg");
+    background-size: cover;
+
+}
+.cycle2{
+    border:1px solid #a3a8a5;
+    margin-left: 2%;
+    top:5%;
+    height: 20%;
+    width: 75%;
+    position: relative;
+    float: left;
+    background-color: #ececec;
+}
+.c1_commit{
+    border:1px solid #a3a8a5;
+    background-color: #ececec;
+    margin-left: 2%;
+    margin-top:1% ;
+    height: 65%;
+    width: 75%;
+    float: left;
+
+}
+.c2{
+    background-color:rgba(255,255,255,0.3) ;
+    width: 100%;
+    height: 13.5%;
+    margin-top: 2%;
+}
+.cycle4{
+    border:1px solid #a3a8a5;
+    margin-left: 2%;
+    top:5%;
+    height: 20%;
+    width: 75%;
+    position: relative;
+    float: left;
+    background-color: #ececec;
+}
+.c1_commit2{
+    border:1px solid #a3a8a5;
+    background-color: #ececec;
+    margin-left: 2%;
+    margin-top:1% ;
+    height: 65%;
+    width: 75%;
+    float: left;
+}
+.cycle3{
+    border-radius: 100%;
+    height: 80%;
+    width: 12%;
+    margin: -1.5% 2% 0 6%;
+    float: left;
+    background-image: url("../images/h2.gif");
+    background-size: cover;
+
+}
+#h3{
+    background-image: url("../images/h3.jpg");
+    background-size: cover;
+}
+#h4{
+    background-image: url("../images/h4.jpg");
+    background-size: cover;
+
+}
+#h5{
+    background-image: url("../images/h5.jpg");
+    background-size: cover;
+}
+#h6{
+    background-image: url("../images/h6.jpeg");
+    background-size: cover;
+}
+#h7{
+    background-image: url("../images/h7.jpg");
+    background-size: cover;
+}
+#h8{
+    background-image: url("../images/h8.jpg");
+    background-size: cover;
+}
+.NextPage{
+    cursor: pointer;
+    width: 15%;
+    height: 2%;
+    left: 75%;
+    top: 22%;
+    position: relative;
+}
+.up{
+    width: 48%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    background-color: #e9e9e9;
+
+}
+.down{
+    width: 48%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+
+    background-color: #e9e9e9;
+}
+.NextPage span{
+    text-align: center;
+    position:absolute;
+    left:0;
+    right: 0;
+    top: 30%;
+    font-size: 120%;
+}
+.commit span{
+     color: #7f7f7f;
+     font-size: 170%;
+     text-indent:1em;
+}
+.l1{
+     display:block;
+     text-align:center;
+}
+
+
+
+
+

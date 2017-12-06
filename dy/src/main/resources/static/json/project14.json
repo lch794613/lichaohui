@@ -1,0 +1,14 @@
+{
+  "project": "Q-learning",
+  "cont":{
+    "p1":"机器学习的一个demo",
+    "p2":"冒险者会根据q-learning的算法自己寻找宝藏",
+    "p3":"通过训练时间的加长得到更快更准的结果",
+    "p4":"从这个开始入门机器学习,了解sklearn库",
+    "p5":"路还很长,多多加油"
+  },
+  "images": {
+    "img1": "saolei1.png",
+    "img2": "saolei2.png"
+  }
+}
