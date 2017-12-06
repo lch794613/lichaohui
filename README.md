@@ -8,3 +8,9 @@ ted_down ---爬取ted视频网站 下载链接在js里面 通过分析js找到�
 java ppt ---给同学们介绍xml和spring的缘由 <br>
 dqn -----q-learning+tensorflow的练习<br>
 tensorflow ----google官网的练习<br>
+saolei ----java练手扫雷
+snake ------java练手 贪吃蛇
+pong ------java 练手 弹球
+flappy -----java练手 像素鸟
+DQN flappy------tensorflow框架 opencv处理图像  3层卷积神经网络+RL 实现自动完像素鸟
+dy -----springboot 框架 springSecurity  安全模块 thymeleaf视图 durid  html css js jquery  实现个人网站 用时1个多月
